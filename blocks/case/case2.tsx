@@ -36,7 +36,7 @@ export const Case2 = () => {
             Trusted by market leaders
           </h3>
           <div className="relative w-full col-span-4">
-            <div className="bg-gradient-to-r from-background via-white/0 to-background z-10 absolute left-0 top-0 right-0 bottom-0 w-full h-full"></div>
+            <div className="bg-linear-to-r from-background via-white/0 to-background z-10 absolute left-0 top-0 right-0 bottom-0 w-full h-full"></div>
             <Carousel setApi={setApi} className="w-full">
               <CarouselContent>
                 {Array.from({ length: 25 }).map((_, index) => (
